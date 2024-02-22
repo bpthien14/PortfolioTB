@@ -16,8 +16,6 @@
   --second-bg-color: #112e42;
   --text-color: #ededed;
   --main-color: #00abf0;
-  --HOME-BG: ./PortfolioTB/images/home.png;
-  --HOME-BG-1: /images/home.png;
 }
 
 html {
@@ -80,7 +78,7 @@ section {
   display: flex;
   align-items: center;
   padding: 0 9%;
-  background: url('/images/home.png') no-repeat;
+  background: url('/PortfolioTB/images/home.png') no-repeat;
   background-size: cover;
   background-position: center;
 }
