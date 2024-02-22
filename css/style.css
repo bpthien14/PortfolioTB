@@ -43,6 +43,11 @@ span {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  transition: .3s;
+}
+
+.header.sticky {
+  background: var(--bg-color);
 }
 
 .logo {
@@ -248,7 +253,7 @@ section {
   align-items: center;
   flex-direction: column;
   gap: 2rem;
-  background: var(--second-ng-color);
+  background: var(--second-bg-color);
   padding-bottom: 6rem;
 }
 
@@ -417,6 +422,7 @@ section {
 .contact {
   min-height: auto;
   padding-bottom: 7rem;
+  background: var(--second-bg-color);
 }
 
 .contact form {
@@ -494,7 +500,7 @@ section {
   align-items: center;
   flex-wrap: wrap;
   padding: 2rem 9%;
-  background: var(--second-bg-color);
+  
 }
 
 .footer-text p {
