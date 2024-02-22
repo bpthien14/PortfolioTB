@@ -454,7 +454,7 @@ section {
 }
 
 .education-content .content h4.gpa {
-  margin-left: 16rem;
+  margin-left: 4rem;
 }
 
 .education-content .content p {
@@ -670,6 +670,8 @@ section:ntn-child(odd) .animate.scroll,
   .footer {
     padding: 2rem 4%;
   }
+
+
 }
 
 @media (max-width: 850px) {
@@ -758,6 +760,13 @@ section:ntn-child(odd) .animate.scroll,
   .home-sci a {
     width: 38px;
     height: 38px;
+  }
+
+  .education-content .content h4{
+    display: block;
+  }
+  .education-content .content h4.gpa{
+    margin-left: 0;
   }
 
 }
