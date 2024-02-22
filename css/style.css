@@ -757,6 +757,10 @@ section:ntn-child(odd) .animate.scroll,
     width: 38px;
     height: 38px;
   }
+  
+  .home-imgHover {
+    display: none;
+  }
 }
 
 @media (max-width: 462px) {
